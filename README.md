@@ -3,14 +3,14 @@
 Prompts and Claude Code skills for rebuilding the **Asili Trails** setup on another business's WordPress site:
 
 1. **A premium safari / tour operator website**, modelled on [asilitrails.com](https://asilitrails.com)
-2. **A private operations portal** (lead board with lead sources, tasks, calendar, insights, payments, proposals, email conversations, suppliers & costing, a Claude/MCP connection and more) in Apple Human Interface Guidelines style, modelled on the Asili Portal
+2. **A private operations portal** (lead board with lead sources, tasks, calendar, insights, payments, proposals, email conversations, suppliers & costing, iMessage-style team chat with voice notes, Apple Notes-style notes, a Claude/MCP connection and more) in Apple Human Interface Guidelines style, modelled on the Asili Portal
 
 ## What's inside
 
 | Path | What it is |
 |---|---|
 | [`prompts/01-safari-website.md`](prompts/01-safari-website.md) | Full build prompt for the public website: design system, global chrome, sitemap and page templates, content, SEO, working rules |
-| [`prompts/02-operations-portal.md`](prompts/02-operations-portal.md) | Full build prompt for the operations portal: architecture, roles, HIG design tokens, lead sources, screens, optional modules, MCP connection, PWA and push |
+| [`prompts/02-operations-portal.md`](prompts/02-operations-portal.md) | Full build prompt for the operations portal: architecture, roles, HIG design tokens, lead sources, screens, team chat, notes, optional modules, MCP connection, PWA and push |
 | [`skills/safari-website/`](skills/safari-website/SKILL.md) | Claude Code skill that runs the website prompt step by step |
 | [`skills/operator-portal/`](skills/operator-portal/SKILL.md) | Claude Code skill that runs the portal prompt step by step |
 
